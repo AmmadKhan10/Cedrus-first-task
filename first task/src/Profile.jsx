@@ -1,11 +1,13 @@
-function Profile() {
+function Profile(props) {
+    const {Name, FName, City, DateofBirth} = props;
+    console.log(Name);
     return(
         <div className="parent1">
         <h1>Personal introduction</h1>
-        <p>My name is AMMAD KHAN</p>
-        <p>My father name is Muhammad Ilyas Khan.</p>
-        <p>I am from Oghi, Mansehra.</p>
-        <p>My date of birth is 27/05/2000.</p>
+        <p>My name is {Name}</p>
+        <p>My father name is {FName}.</p>
+        <p>I am from {City}.</p>
+        <p>My date of birth is {DateofBirth}.</p>
            
         </div>
     )
