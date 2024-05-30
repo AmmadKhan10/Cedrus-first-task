@@ -1,6 +1,6 @@
 function Profile(props) {
     const {Name, FName, City, DateofBirth} = props;
-    console.log(Name);
+    
     return(
         <div className="parent1">
         <h1>Personal introduction</h1>
